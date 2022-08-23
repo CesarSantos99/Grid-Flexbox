@@ -13,10 +13,34 @@
 </head>
 <body>
     <header class="cabecalho">
-        <button class="cabecalho__menu"><i></i></button>
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
         <img src="flex-e-grid-main/assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
-        <button class="cabecalho__notificacao"><i></i></button>
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
     </header>
-    
+    <nav class="menu-lateral">
+        <img src="flex-e-grid-main/assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
+        <a href="#" class="menu-lateral__links menu-lateral__links--inicio menu-lateral__links--ativo">Início</a>
+        <a href="#" class="menu-lateral__links menu-lateral__links--videos">Vídeos</a>
+        <a href="#" class="menu-lateral__links menu-lateral__links--picos">Picos</a>
+        <a href="#" class="menu-lateral__links menu-lateral__links--integrantes">Integrantes</a>
+        <a href="#" class="menu-lateral__links menu-lateral__links--camisas">Camisas</a>
+        <a href="#" class="menu-lateral__links menu-lateral__links--pinturas">Pinturas</a>
+    </nav>
+    <main class="principal">
+        <h2 class="titulo-pagina">Inicio</h2>
+        <article class="cartao">
+            <img src="flex-e-grid-main/assets/img/banner-mobile_1.png" alt="banner do cartao" class="cartao__imagem">
+            <div class="cartao__conteudo">
+                <p class="cartao__destaque">Vídeo em destaque</p>
+                <h3 class="cartao__titulo">HZC - Titulo</h3>
+                <p class="cartao__perfil">César Santos</p>
+                <p class="cartao__info cartao__info--tempo"> 33 minutos</p>
+                <p class="cartao__info cartao__info--visualizacao"> 33 visualizações</p>
+                <button class="cartao__botao cartao__botao--play cartao__botao--destaque">Assistir agora</button>
+            </div>
+    </article>
+
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
